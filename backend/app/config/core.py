@@ -3,7 +3,7 @@ import os
 
 from dotenv import load_dotenv
 
-load_dotenv("/app/backend/.env")
+load_dotenv("/app/.env")
 
 logger = logging.getLogger(__name__)
 

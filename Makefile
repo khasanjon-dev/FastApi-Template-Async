@@ -1,12 +1,12 @@
 # BASIC
 up:
-	docker compose up -d
+	docker compose up
 build:
-	docker compose up --build -d
+	docker compose up --build
 down:
 	docker compose down
 down_v:
 	docker compose down -v
 reload:
 	make down_v
-	make build
+	make up

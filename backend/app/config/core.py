@@ -1,8 +1,11 @@
+import logging
 import os
 
 from dotenv import load_dotenv
 
-load_dotenv("../../.env")
+load_dotenv("/app/backend/.env")
+
+logger = logging.getLogger(__name__)
 
 
 class Settings:

@@ -6,6 +6,7 @@ WORKDIR /app
 
 # Install dependencies
 COPY requirements.txt .
+COPY backend/.env .
 RUN pip install -r requirements.txt
 
 # Copy backend code

@@ -57,6 +57,22 @@ docker compose down
 docker compose logs -f
 ```
 
+## API Documentation (Swagger / OpenAPI)
+
+When the project is running, open Swagger UI here:
+
+- Swagger UI: http://localhost:8000/docs
+- ReDoc: http://localhost:8000/redoc
+- OpenAPI JSON: http://localhost:8000/openapi.json
+
+## API Endpoints
+
+This project exposes its endpoints via Swagger UI.
+
+To see the full and up-to-date list of APIs:
+1. Run the project (Docker or local).
+2. Open: http://localhost:8000/docs
+
 ## Local run (optional)
 
 If you prefer running without Docker, create and activate a virtual environment and install dependencies, then run the app (commands may vary depending on how the project is set up).

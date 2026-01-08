@@ -12,9 +12,5 @@ services:
     restart: always
     networks:
       - fastapi_backend_net
-
-volumes:
-  kafka_data:
-
 networks:
   fastapi_backend_net:
